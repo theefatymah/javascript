@@ -19,6 +19,10 @@ let someNumber = 33
 let someString = String(someNumber)
 console.log(typeof someString);
 console.log(someString);
+console.log(someString);
+console.log(someString);
+console.log(someString);
+console.log(someString);
 
 
 
