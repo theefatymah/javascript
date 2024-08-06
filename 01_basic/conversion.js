@@ -15,10 +15,10 @@ let isLoggedIn = 1
 let booleanIsLoggedIn = Boolean(isLoggedIn)
 console.log(booleanIsLoggedIn);
 
-let number = 33
-let string = string(number)
-console.log(typeof string);
-console.log(string);
+let someNumber = 33
+let someString = string(someNumber);
+console.log(typeof someString);
+console.log(someString);
 
 
 
