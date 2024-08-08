@@ -28,3 +28,19 @@ const anotherId = Symbol('123')
 console.log( id === anotherId);
 
 const bigNumber = 889477858758711657076716078676n
+
+
+const hero = [ "spiderman", "batman", "ironman"]
+
+let myObj = {
+    name:"fatymah",
+    age:22,
+}
+
+const myFunction = function(){
+    console.log("hello world!");
+    
+}
+
+console.log(typeof bigNumber)
+console.log(typeof outsideTemp)
