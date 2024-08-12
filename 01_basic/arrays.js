@@ -45,6 +45,12 @@ const usableArray = newArray2.flat(Infinity)
 console.log(usableArray);
 
 console.log(Array.isArray('Fatymah'));
-console.log(Array.form('Fatymah'));
-console.log(Array.form({ name : 'Fatymah'}));//important
+// console.log(Array.form('Fatymah'));
+// console.log(Array.form({ name : 'Fatymah'}));//important
+
+let score = 100
+let score2 = 200
+let score3 = 400
+
+console.log(Array.of(score, score2, score3));
 
