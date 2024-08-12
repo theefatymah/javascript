@@ -24,4 +24,7 @@ const myNewArray = arr.slice(1, 3)
 console.log(myNewArray);
 console.log('B', arr);
 
+const myNewArray2 = arr.splice(1, 3)
+console.log(myNewArray2)
+console.log('C', arr)
 
