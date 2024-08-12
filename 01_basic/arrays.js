@@ -28,3 +28,23 @@ const myNewArray2 = arr.splice(1, 3)
 console.log(myNewArray2)
 console.log('C', arr)
 
+const marvelHeros = ['thor','ironman','spiderman']
+const herosDc = ['supeman','flash','batman']
+marvelHeros.push(herosDc)
+console.log(marvelHeros);
+console.log(marvelHeros[3][1]);
+
+const allHeros = marvelHeros.concat(herosDc)
+console.log(allHeros);
+
+const spreadHeros = [...marvelHeros, ...herosDc]
+console.log(spreadHeros);
+
+const newArray2 = [1,2,3,[4,5,6],7,[9,10,[4,5]]]
+const usableArray = newArray2.flat(Infinity)
+console.log(usableArray);
+
+console.log(Array.isArray('Fatymah'));
+console.log(Array.form('Fatymah'));
+console.log(Array.form({ name : 'Fatymah'}));//important
+
