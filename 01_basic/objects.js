@@ -35,3 +35,32 @@ jsUser.greetingTwo = function(){
 }
 console.log(jsUser.greeting());
 console.log(jsUser.greetingTwo());
+
+
+
+const tinderUser = new Object()
+tinderUser.id = "123abc"
+tinderUser.name = "Sammy"
+tinderUser.isLoggedIn = false
+
+
+console.log(tinderUser);
+
+const regularUser = {
+    email : "some@example.com",
+    fullname : {
+        userfullname : {
+            firstname : "MahNoor",
+            lastname : "Fatima"
+        }
+    }
+}
+
+console.log(regularUser.fullname.userfullname);
+
+const obj1 = {1:"a", 2:"b"}
+const obj2 = {3:"a", 4:"b"}
+
+// const obj3 = Object.assign({},obj1, obj2)
+const obj3 = {...obj1,...obj2}
+console.log(obj3);
