@@ -104,3 +104,9 @@ const course = {
 
 const {courseInstructor} = course
 console.log(courseInstructor);
+
+const navbar = () => {
+
+}
+ 
+navbar (company = "TheeFatymah")
