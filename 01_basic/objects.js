@@ -98,7 +98,7 @@ console.log(tinderUser.hasOwnProperty('isLoggedIn'));
  
 const course = {
     courseName : "JS in Spanich",
-    price : "999"
+    price : "999",
     courseInstructor : "Fatima"
 }
 
