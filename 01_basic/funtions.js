@@ -22,7 +22,11 @@ const result = addTwoNumbers(3,4)
 console.log("Result : " , result);
 
 
-function loginUserMessage(username) {
+function loginUserMessage(username = 'user'){
+    if(!username){
+        console.log("please enter username");
+        return
+    }
     return `${username} just logged in `
 }
 console.log(loginUserMessage('Fatymah'));
