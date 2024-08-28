@@ -46,3 +46,11 @@ function handleObject(anyObject){
     
 }
 handleObject(user)
+
+const myNewArray = [200,400,600]
+
+function objectArray(array){
+    return array[2]
+}
+console.log(objectArray(myNewArray));
+
