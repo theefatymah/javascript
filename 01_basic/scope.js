@@ -36,15 +36,16 @@ function one(){
  }
  //console.log(username);
  
-
+console.log(addone(5));
  function addone(num) {
     return num + 1
  }
- addone(5)
+ 
 
 
-
- const addTwo = funtion(num){
+// console.log(addTwo (5));
+const addTwo = funtion(num){
     return num +2
  }
-    
+
+addTwo(5)
